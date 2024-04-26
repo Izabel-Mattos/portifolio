@@ -11,8 +11,6 @@ display: flex;
 
 export const Container = styled.section`
 border: solid blue 2px;
-display: flex;
-justify-content:center;
 align-items: center;
 width:100%;
 
@@ -20,5 +18,17 @@ div{
     border: solid red 5px;
     width: 50%;
 }
-
 `;
+export const Div = styled.div`
+background-color:yellow;
+width: 100%;
+    
+
+`
+
+export const Banner = styled.section`
+    
+    height: 30vh;
+    width: 100%;
+
+`

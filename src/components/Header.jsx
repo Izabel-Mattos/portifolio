@@ -3,13 +3,15 @@ import linkedin from "../assets/link.png"
 import git from "../assets/git.png"
 import face from "../assets/face.png"
 import * as S from "./styled"
+import eu from "../assets/eu.jpg"
+import logo from "../assets/logo.png"
 
 
 export default function Header() {
   return (
     <S.Header>
         <S.BoxLogo>
-            <img src="https://a91mcico4j0e.avataruol.com.br/avatar.jpg" alt="" />
+            <S.Img src={eu} alt="minha foto" />
             <S.Title>Izabel Mattos</S.Title>
             <S.Text>Front-end Developer</S.Text>
         </S.BoxLogo>

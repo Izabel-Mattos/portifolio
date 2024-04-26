@@ -1,16 +1,19 @@
 import Header from '../../components/Header'
 import * as S from "./styled"
-
+import Fotobanner from "../../assets/banner.jpg"
 
 export default function Inicio() {
   return (
     <S.Main>
       <Header/>
       <S.Container>
-        <div>
+        <S.Banner>
+          <img src={Fotobanner} alt="banner" />
+        </S.Banner>
+        <S.Div>
         <h2>Bem Vindos!</h2>
         <p> colocar sobre minha historia</p>
-        </div>
+        </S.Div>
       </S.Container>
     </S.Main>
   )

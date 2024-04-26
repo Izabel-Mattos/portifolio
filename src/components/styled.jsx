@@ -42,6 +42,10 @@ img{
       height: 9vh;
    }
 `;
+
+export const Img = styled.img`
+border-radius:100%;
+`
 export const Title = styled.h2`
 /* border: solid 2px green;  */
    width: 100%;
